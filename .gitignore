@@ -1,0 +1,84 @@
+# Ignore build outputs and intermediate files
+**/bin/
+**/obj/
+**/out/
+
+# Ignore user-specific files
+**/*.user
+**/*.userosscache
+**/*.suo
+**/*.csproj.user
+
+# Visual Studio files
+.vs/
+**/.vs/
+
+# Logs
+**/*.log
+
+# IDE settings
+.idea/
+**/*.iml
+
+# NuGet Packages
+**/*.nupkg
+# Uncomment if you have a custom NuGet Config
+# **/NuGet.config
+
+# Resharper files
+_ReSharper*/
+**/*.DotSettings.user
+
+# Rider files
+.idea/
+
+# Azure Pipeline temporary files
+**/*.azure*
+
+# Database files
+**/*.mdf
+**/*.ldf
+
+# Debugging files
+**/*.pdb
+**/*.lock.json
+
+# Publish artifacts
+**/*.publishsettings
+
+# DotNet specific
+**/project.lock.json
+**/project.fragment.lock.json
+**/artifacts/
+
+# Node modules (if applicable)
+**/node_modules/
+
+# Coverage Reports
+**/coverage/
+**/*.coverage
+**/*.coveragexml
+
+# Generated files
+**/*.generated.cs
+
+# Unity specific (if applicable)
+**/Library/
+**/Temp/
+**/Build/
+**/Builds/
+**/obj/
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.sln.*
+
+# Miscellaneous
+**/*.DS_Store
+**/*.swp
+**/*.bak
+**/*.orig
+**/*.rej
+**/*.so
+**/*.pyc
+**/*.class
