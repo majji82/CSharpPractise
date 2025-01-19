@@ -1,3 +1,0 @@
-# CSharpPractise
-
-CSharp Programs Practice
