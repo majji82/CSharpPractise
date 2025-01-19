@@ -7,7 +7,6 @@
 **/*.user
 **/*.userosscache
 **/*.suo
-**/*.csproj.user
 
 # Visual Studio files
 .vs/
@@ -60,7 +59,6 @@ _ReSharper*/
 **/*.coveragexml
 
 # Generated files
-**/*.generated.cs
 
 # Unity specific (if applicable)
 **/Library/
@@ -68,10 +66,8 @@ _ReSharper*/
 **/Build/
 **/Builds/
 **/obj/
-**/*.csproj
 **/*.unityproj
-**/*.sln
-**/*.sln.*
+
 
 # Miscellaneous
 **/*.DS_Store
