@@ -29,15 +29,21 @@ namespace BookCollectionUsingOOps.Managers
             int id = AutoIncrement.GenerateId();
             book.Id = id;
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Enter the year book is published: ");
+            Console.ResetColor();
             int year = Convert.ToInt32(Console.ReadLine());
             book.Year = year;
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Enter the author of the book: ");
+            Console.ResetColor();
             string author = Console.ReadLine();
             book.Author = author;
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Enter the title of the book: ");
+            Console.ResetColor();
             string title = Console.ReadLine();
             book.Title = title;
 
@@ -48,19 +54,28 @@ namespace BookCollectionUsingOOps.Managers
 
         public void UpdateBook()
         {
-            Console.WriteLine("Emter the ID of the book to be updated: ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Enter the ID of the book to be updated: ");
+            Console.ResetColor();
             int idToUpdate = Convert.ToInt32(Console.ReadLine());
             Book updatedBook = new Book();
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Enter the new year: ");
+            Console.ResetColor();
             int updatedYear = Convert.ToInt32(Console.ReadLine());
             updatedBook.Year = updatedYear;
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Enter the new Author: ");
+            Console.ResetColor();
             string newAuthor = Console.ReadLine();
             updatedBook.Author = newAuthor;
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Enter the new Title: ");
+            Console.ResetColor();
+
             string newTitle = Console.ReadLine();
             updatedBook.Title = newTitle;
 

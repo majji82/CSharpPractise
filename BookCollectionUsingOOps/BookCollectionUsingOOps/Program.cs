@@ -12,10 +12,16 @@ namespace BookCollectionUsingOOps
 
             while(!exit)
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Welcome to Book Collection Manager!");
+                Console.ResetColor();
+
                 manager.ShowMenu();
+                Console.BackgroundColor = ConsoleColor.Green;
                 Console.WriteLine("Select your choice: ");
+                Console.ResetColor();
                 int choice = Convert.ToInt32(Console.ReadLine());
+                Console.ResetColor();
                 switch(choice)
                 {
                     case 1:
@@ -31,7 +37,9 @@ namespace BookCollectionUsingOOps
                         manager.ViewBooks();
                         break;
                     case 5:
+                        Console.BackgroundColor = ConsoleColor.Green;
                         Console.WriteLine("Thanks for using our Book Manager!!");
+                        Console.ResetColor();
                         exit = true;
                         break;
                 }
